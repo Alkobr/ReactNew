@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import Edit from './Edit';
+import AddCheckout from './Checkout';
+import CreateNew from './CreateNew';
+import Login from './LogIn';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <App/>
   </React.StrictMode>
 );
 
